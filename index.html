@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>আমার ওয়েব পৃষ্ঠা</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            margin: 5px;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>আমার ওয়েব পৃষ্ঠা</h1>
+        <p>এটি একটি সাধারণ HTML পৃষ্ঠা উদাহরণ</p>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="#about">আমার সম্পর্কে</a>
+        <a href="#contact">যোগাযোগ</a>
+        <a href="#services">সেবা</a>
+    </nav>
+
+    <!-- Main Content -->
+    <section id="about">
+        <h2>আমার সম্পর্কে</h2>
+        <p>আমি একজন ওয়েব ডেভেলপার এবং ডিজাইনার। আমি HTML, CSS, JavaScript, এবং PHP নিয়ে কাজ করি।</p>
+        <img src="https://via.placeholder.com/400" alt="প্রোফাইল ছবি" width="400" />
+    </section>
+
+    <section id="services">
+        <h2>আমার সেবা</h2>
+        <ul>
+            <li>ওয়েব ডিজাইন</li>
+            <li>ওয়েব ডেভেলপমেন্ট</li>
+            <li>SEO (Search Engine Optimization)</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>যোগাযোগ করুন</h2>
+        <form action="#">
+            <label for="name">নাম:</label>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+            <label for="email">ইমেইল:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+            <label for="message">বার্তা:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <br><br>
+            <button type="submit">প্রেরণ করুন</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 আমার ওয়েব পৃষ্ঠা. সকল অধিকার সংরক্ষিত।</p>
+    </footer>
+
+</body>
+  </html>
